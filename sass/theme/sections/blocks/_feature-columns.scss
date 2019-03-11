@@ -1,0 +1,58 @@
+
+.feature-column {
+
+  margin: 15px 0;
+
+  &--boxed {
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #fff;
+
+    &__inner {
+      padding:20px;
+    }
+
+    .feature-column__image {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
+      color: $dark!important;
+
+    }
+    
+    h6, .h6 {
+
+      color:$heading-color!important;
+      
+    }
+    
+    p {
+      color: $body-color!important;
+
+    }
+    
+    .lead {
+      color: $heading-color!important;
+    }
+
+    a:not(.btn) {
+      color: $primary!important;
+      &:hover {
+        color: darken($primary,10%)!important;
+      }
+    }
+
+  }
+
+
+  &__image, &__icon {
+    margin-bottom: 30px;
+  }
+
+  &__icon {
+    width: 70px;
+  }
+}
