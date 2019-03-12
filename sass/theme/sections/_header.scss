@@ -58,10 +58,10 @@
 
 .header__logo {
   display: block;
-  width: 200px;
+  max-width: 240px;
 
   @include media-breakpoint-down(sm) {
-    width: 120px;
+    width: 140px;
   }
 }
 
@@ -89,6 +89,10 @@
     margin: 0;
     list-style: none;
     display: flex;
+
+    li {
+      position: relative;
+    }
   }
 
  
@@ -135,23 +139,6 @@
 
 }
 
-.gradient-bar {
-  height: 4px;
-  width: 100%;
-  z-index: 1030;
-  background: rgba(51,187,217,1);
-background: -moz-linear-gradient(left, rgba(51,187,217,1) 0%, rgba(176,196,63,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(51,187,217,1)), color-stop(100%, rgba(176,196,63,1)));
-background: -webkit-linear-gradient(left, rgba(51,187,217,1) 0%, rgba(176,196,63,1) 100%);
-background: -o-linear-gradient(left, rgba(51,187,217,1) 0%, rgba(176,196,63,1) 100%);
-background: -ms-linear-gradient(left, rgba(51,187,217,1) 0%, rgba(176,196,63,1) 100%);
-background: linear-gradient(to right, rgba(51,187,217,1) 0%, rgba(176,196,63,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33bbd9', endColorstr='#b0c43f', GradientType=1 );
-@include media-breakpoint-down(sm) {
-  position: fixed;
-  top:0;
-}
-}
 
 .admin-bar .header {
   top: 32px;
@@ -244,12 +231,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33bbd9', end
   flex-direction: column;
   display: none!important;
   background-color: $white;
-  width:130px;
+  width:200px;
   position: absolute;
-  right: 1rem;
+  right: 0;
   border-top: 3px solid $primary;
   border-radius: 3px;
   z-index: 1;
+
   li:last-of-type {
     overflow: hidden;
     border-radius: 0 0 3px 3px;
@@ -259,14 +247,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33bbd9', end
     color: $dark;
     opacity: 1;
     
-    
     &:hover {
       color: $dark;
       background-color: $light;
     }
-
-    
-
   }
 
   &.show {
@@ -298,58 +282,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33bbd9', end
 .menu-item:hover {
    .sub-menu {
     display: flex!important;
-  }
-}
-
-.mobile-phone {
-  position: absolute;
-  top: 1.25rem;
-  left: 2rem;
-  display: none;
-  @include media-breakpoint-down(sm) {
-    display: block;
-  }
-}
-
-
-.header--listings {
-  background: $white;
-  position: fixed;
-  box-shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.1);
-
-  .logo--light {
-    display: none;
-
-    @include media-breakpoint-down(sm) {
-      display: none;
-    }
-  }
-
-  .logo--dark {
-    display: block;
-
-    @include media-breakpoint-down(sm) {
-      display: block;
-    }
-  }
-
-  .header-top {
-    padding: 1rem 2rem;
-    @include media-breakpoint-down(sm) {
-      padding: 0;
-    }
-  }
-  .header__inner {
-    max-width: none;
-  }
-
-  .header-nav {
-    a {
-      color: $dark;
-      &:hover {
-        opacity: 0.7;
-        color: $dark;
-      }
-    }
   }
 }

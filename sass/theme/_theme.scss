@@ -165,7 +165,7 @@ section {
 .btn {
   font-size: 0.875em;
   font-weight: 700;
-  font-family: $font-sans;
+  font-family: $font-opensans;
   color: $primary;
   padding: 1rem 1.875rem;
   border-radius: 3px;
@@ -218,7 +218,7 @@ section {
   color: $primary;
   font-size: 0.825em;
   font-weight: 700;
-  font-family: $font-sans;
+  font-family: $font-opensans;
   text-transform: uppercase;
 
   &:hover {
@@ -521,13 +521,13 @@ section {
   }
   &--title{
     text-transform:uppercase;
-    font-family:$font-sans;
+    font-family:$font-opensans;
     letter-spacing: 1px;
     font-size:0.875rem;
   }
   &--bottom {
     text-transform:uppercase;
-    font-family:$font-sans;
+    font-family:$font-opensans;
     letter-spacing: 1px;
     font-size:0.875rem;
     color:$dark!important;
@@ -660,7 +660,7 @@ section {
       font-size: 0.75rem;
       width: 100%;
       letter-spacing:1px;
-      font-family:$font-sans;
+      font-family:$font-opensans;
       color:$dark;
       text-decoration:none;
       position: relative;

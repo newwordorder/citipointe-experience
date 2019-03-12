@@ -1,6 +1,6 @@
 <?php // PRE-FOOTER CTA BLOCK
 
-$text = get_field('text_box', pll_current_language('slug'));
+$text = get_field('text_box','options');
 $backgroundImage = get_field('background_image','options');
 ?>
 

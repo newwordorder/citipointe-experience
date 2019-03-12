@@ -139,187 +139,22 @@
 		"oAP": "/css/theme.min.css.map",
 		"oF": 0
 		},
-	"/favicon/android-icon-144x144.png": {
+	"/favicon/android-chrome-192x192.png": {
 		"ft": 32768,
-		"iS": 25898,
+		"iS": 62369,
 		"oA": 0,
-		"oAP": "/favicon/android-icon-144x144.png",
+		"oAP": "/favicon/android-chrome-192x192.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/favicon/android-icon-192x192.png": {
+	"/favicon/apple-touch-icon.png": {
 		"ft": 32768,
-		"iS": 34628,
+		"iS": 28179,
 		"oA": 0,
-		"oAP": "/favicon/android-icon-192x192.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/favicon/android-icon-36x36.png": {
-		"ft": 32768,
-		"iS": 3967,
-		"oA": 0,
-		"oAP": "/favicon/android-icon-36x36.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/favicon/android-icon-48x48.png": {
-		"ft": 32768,
-		"iS": 5916,
-		"oA": 0,
-		"oAP": "/favicon/android-icon-48x48.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/favicon/android-icon-72x72.png": {
-		"ft": 32768,
-		"iS": 10251,
-		"oA": 0,
-		"oAP": "/favicon/android-icon-72x72.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/favicon/android-icon-96x96.png": {
-		"ft": 32768,
-		"iS": 14828,
-		"oA": 0,
-		"oAP": "/favicon/android-icon-96x96.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/favicon/apple-icon-114x114.png": {
-		"ft": 32768,
-		"iS": 18871,
-		"oA": 0,
-		"oAP": "/favicon/apple-icon-114x114.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/favicon/apple-icon-120x120.png": {
-		"ft": 32768,
-		"iS": 20226,
-		"oA": 0,
-		"oAP": "/favicon/apple-icon-120x120.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/favicon/apple-icon-144x144.png": {
-		"ft": 32768,
-		"iS": 25898,
-		"oA": 0,
-		"oAP": "/favicon/apple-icon-144x144.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/favicon/apple-icon-152x152.png": {
-		"ft": 32768,
-		"iS": 27809,
-		"oA": 0,
-		"oAP": "/favicon/apple-icon-152x152.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/favicon/apple-icon-180x180.png": {
-		"ft": 32768,
-		"iS": 34935,
-		"oA": 0,
-		"oAP": "/favicon/apple-icon-180x180.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/favicon/apple-icon-57x57.png": {
-		"ft": 32768,
-		"iS": 7430,
-		"oA": 0,
-		"oAP": "/favicon/apple-icon-57x57.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/favicon/apple-icon-60x60.png": {
-		"ft": 32768,
-		"iS": 7994,
-		"oA": 0,
-		"oAP": "/favicon/apple-icon-60x60.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/favicon/apple-icon-72x72.png": {
-		"ft": 32768,
-		"iS": 10251,
-		"oA": 0,
-		"oAP": "/favicon/apple-icon-72x72.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/favicon/apple-icon-76x76.png": {
-		"ft": 32768,
-		"iS": 10992,
-		"oA": 0,
-		"oAP": "/favicon/apple-icon-76x76.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/favicon/apple-icon-precomposed.png": {
-		"ft": 32768,
-		"iS": 35204,
-		"oA": 0,
-		"oAP": "/favicon/apple-icon-precomposed.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/favicon/apple-icon.png": {
-		"ft": 32768,
-		"iS": 35204,
-		"oA": 0,
-		"oAP": "/favicon/apple-icon.png",
+		"oAP": "/favicon/apple-touch-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -335,7 +170,7 @@
 		},
 	"/favicon/favicon-16x16.png": {
 		"ft": 32768,
-		"iS": 1940,
+		"iS": 1596,
 		"oA": 0,
 		"oAP": "/favicon/favicon-16x16.png",
 		"oF": 0,
@@ -346,20 +181,9 @@
 		},
 	"/favicon/favicon-32x32.png": {
 		"ft": 32768,
-		"iS": 3364,
+		"iS": 3697,
 		"oA": 0,
 		"oAP": "/favicon/favicon-32x32.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/favicon/favicon-96x96.png": {
-		"ft": 32768,
-		"iS": 14828,
-		"oA": 0,
-		"oAP": "/favicon/favicon-96x96.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -373,208 +197,184 @@
 		"oAP": "/favicon/favicon.ico",
 		"oF": 0
 		},
-	"/favicon/manifest.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/favicon/manifest-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/favicon/ms-icon-144x144.png": {
+	"/favicon/mstile-150x150.png": {
 		"ft": 32768,
-		"iS": 25898,
+		"iS": 33028,
 		"oA": 0,
-		"oAP": "/favicon/ms-icon-144x144.png",
+		"oAP": "/favicon/mstile-150x150.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/favicon/ms-icon-150x150.png": {
-		"ft": 32768,
-		"iS": 27405,
-		"oA": 0,
-		"oAP": "/favicon/ms-icon-150x150.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/favicon/ms-icon-310x310.png": {
-		"ft": 32768,
-		"iS": 76394,
-		"oA": 0,
-		"oAP": "/favicon/ms-icon-310x310.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/favicon/ms-icon-70x70.png": {
-		"ft": 32768,
-		"iS": 9792,
-		"oA": 0,
-		"oAP": "/favicon/ms-icon-70x70.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/fonts/fontawesome-webfont.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/fonts/fontawesome-webfont.eot",
-		"oF": 0
-		},
-	"/fonts/fontawesome-webfont.svg": {
+	"/favicon/safari-pinned-tab.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/fonts/fontawesome-webfont.svg",
+		"oAP": "/favicon/safari-pinned-tab.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/fonts/fontawesome-webfont.ttf": {
+	"/favicon/site.webmanifest": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/fontawesome-webfont.ttf",
+		"oAP": "/favicon/site.webmanifest",
 		"oF": 0
 		},
-	"/fonts/fontawesome-webfont.woff": {
+	"/fonts/bariol/bariol_bold-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/fontawesome-webfont.woff",
+		"oAP": "/fonts/bariol/bariol_bold-webfont.eot",
 		"oF": 0
 		},
-	"/fonts/fontawesome-webfont.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/fonts/fontawesome-webfont.woff2",
-		"oF": 0
-		},
-	"/fonts/Poppins/Poppins-Regular.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/fonts/Poppins/Poppins-Regular.eot",
-		"oF": 0
-		},
-	"/fonts/Poppins/Poppins-Regular.svg": {
+	"/fonts/bariol/bariol_bold-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/fonts/Poppins/Poppins-Regular.svg",
+		"oAP": "/fonts/bariol/bariol_bold-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/fonts/Poppins/Poppins-Regular.ttf": {
+	"/fonts/bariol/bariol_bold-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/Poppins/Poppins-Regular.ttf",
+		"oAP": "/fonts/bariol/bariol_bold-webfont.ttf",
 		"oF": 0
 		},
-	"/fonts/Poppins/Poppins-Regular.woff": {
+	"/fonts/bariol/bariol_bold-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/Poppins/Poppins-Regular.woff",
+		"oAP": "/fonts/bariol/bariol_bold-webfont.woff",
 		"oF": 0
 		},
-	"/fonts/Poppins/Poppins-Regular.woff2": {
+	"/fonts/bariol/bariol_bold-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/Poppins/Poppins-Regular.woff2",
+		"oAP": "/fonts/bariol/bariol_bold-webfont.woff2",
 		"oF": 0
 		},
-	"/fonts/Poppins/Poppins-SemiBold.eot": {
+	"/fonts/bariol/bariol_bold_italic-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/Poppins/Poppins-SemiBold.eot",
+		"oAP": "/fonts/bariol/bariol_bold_italic-webfont.eot",
 		"oF": 0
 		},
-	"/fonts/Poppins/Poppins-SemiBold.svg": {
+	"/fonts/bariol/bariol_bold_italic-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/fonts/Poppins/Poppins-SemiBold.svg",
+		"oAP": "/fonts/bariol/bariol_bold_italic-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/fonts/Poppins/Poppins-SemiBold.ttf": {
+	"/fonts/bariol/bariol_bold_italic-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/Poppins/Poppins-SemiBold.ttf",
+		"oAP": "/fonts/bariol/bariol_bold_italic-webfont.ttf",
 		"oF": 0
 		},
-	"/fonts/Poppins/Poppins-SemiBold.woff": {
+	"/fonts/bariol/bariol_bold_italic-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/Poppins/Poppins-SemiBold.woff",
+		"oAP": "/fonts/bariol/bariol_bold_italic-webfont.woff",
 		"oF": 0
 		},
-	"/fonts/Poppins/Poppins-SemiBold.woff2": {
+	"/fonts/bariol/bariol_bold_italic-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/Poppins/Poppins-SemiBold.woff2",
+		"oAP": "/fonts/bariol/bariol_bold_italic-webfont.woff2",
 		"oF": 0
 		},
-	"/fonts/PT_Serif/PT_Serif-Web-Regular.eot": {
+	"/fonts/bariol/bariol_regular-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/PT_Serif/PT_Serif-Web-Regular.eot",
+		"oAP": "/fonts/bariol/bariol_regular-webfont.eot",
 		"oF": 0
 		},
-	"/fonts/PT_Serif/PT_Serif-Web-Regular.svg": {
+	"/fonts/bariol/bariol_regular-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/fonts/PT_Serif/PT_Serif-Web-Regular.svg",
+		"oAP": "/fonts/bariol/bariol_regular-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/fonts/PT_Serif/PT_Serif-Web-Regular.ttf": {
+	"/fonts/bariol/bariol_regular-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/PT_Serif/PT_Serif-Web-Regular.ttf",
+		"oAP": "/fonts/bariol/bariol_regular-webfont.ttf",
 		"oF": 0
 		},
-	"/fonts/PT_Serif/PT_Serif-Web-Regular.woff": {
+	"/fonts/bariol/bariol_regular-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/PT_Serif/PT_Serif-Web-Regular.woff",
+		"oAP": "/fonts/bariol/bariol_regular-webfont.woff",
 		"oF": 0
 		},
-	"/fonts/PT_Serif/PT_Serif-Web-Regular.woff2": {
+	"/fonts/bariol/bariol_regular-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/PT_Serif/PT_Serif-Web-Regular.woff2",
+		"oAP": "/fonts/bariol/bariol_regular-webfont.woff2",
+		"oF": 0
+		},
+	"/fonts/bariol/bariol_regular_italic-webfont.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/fonts/bariol/bariol_regular_italic-webfont.eot",
+		"oF": 0
+		},
+	"/fonts/bariol/bariol_regular_italic-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/fonts/bariol/bariol_regular_italic-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/fonts/bariol/bariol_regular_italic-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/fonts/bariol/bariol_regular_italic-webfont.ttf",
+		"oF": 0
+		},
+	"/fonts/bariol/bariol_regular_italic-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/fonts/bariol/bariol_regular_italic-webfont.woff",
+		"oF": 0
+		},
+	"/fonts/bariol/bariol_regular_italic-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/fonts/bariol/bariol_regular_italic-webfont.woff2",
 		"oF": 0
 		},
 	"/footer.php": {
@@ -636,13 +436,6 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
-		},
-	"/header-listings.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/header-listings.php",
-		"oF": 0
 		},
 	"/header.php": {
 		"cB": 0,
@@ -721,17 +514,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"/img/logo--white.png": {
-		"ft": 32768,
-		"iS": 5411,
-		"oA": 0,
-		"oAP": "/img/logo--white.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"/inc/accordian-shortcode.php": {
 		"cB": 0,
@@ -3595,9 +3377,9 @@
 	},
 "projectAttributes": {
 	"creationDate": 552910644,
-	"displayValue": "ubs",
+	"displayValue": "citipointe-experience",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-gavin",
+	"iconImageName": "/favicon/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {

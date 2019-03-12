@@ -10,19 +10,17 @@
 ?>
 
 <footer class="footer bg--dark">
-	<div class="container footer__top">
+	<div class="container">
 
 		<div class="row align-items-center">
-		<div class="col-md-4">
-				<h4>The Bible for everyone</h4>
-			</div>
+
 			<div class="col-md-4 text-center">
 				<a href="<?php echo get_home_url(); ?>" id="" class="footer__logo mb-4">
 					<img class="footer__logo" src="<?php bloginfo('template_directory'); ?>/img/logo--light.svg" alt="Logo">
 				</a>
 				
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-8">
 			<?php wp_nav_menu(
 					array(
 						'theme_location'  => 'footer-social',
@@ -38,7 +36,7 @@
 		</div>
 		<div class="row">
 			<div class="col text-center">
-			<p>© Copyright United Bible Societies<br>  <a href="<?php echo get_home_url(); ?>/privacy-policy">Privacy Policy</a></p>
+			<p>© Copyright Citipointe Christian College<br>  <a href="<?php echo get_home_url(); ?>/privacy-policy">Privacy Policy</a></p>
 			</div>
 		</div>
 
@@ -46,7 +44,7 @@
 
 
 <!-- START Cookie-Alert -->
-<div class="alert text-center cookiealert" role="alert">
+<!-- <div class="alert text-center cookiealert" role="alert">
     &#x1F36A; We use cookies to ensure you get the best experience on our website. <a href="https://cookiesandyou.com/" target="_blank">Learn more</a>
 
     <a class="btn btn--solid acceptcookies" aria-label="Close">
