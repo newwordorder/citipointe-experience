@@ -73,5 +73,10 @@ endif;
 
 ?>
 
+<script>
+   var mybtn = document.getElementsByClassName("tab-link")[0];
+  mybtn.click();
+  </script>
+
 
 <?php endif; ?>

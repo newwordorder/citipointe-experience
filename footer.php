@@ -42,39 +42,53 @@
 
 </footer>
 
-
-<!-- START Cookie-Alert -->
-<!-- <div class="alert text-center cookiealert" role="alert">
-    &#x1F36A; We use cookies to ensure you get the best experience on our website. <a href="https://cookiesandyou.com/" target="_blank">Learn more</a>
-
-    <a class="btn btn--solid acceptcookies" aria-label="Close">
-        OK
-			</a>
-</div>
-<!-- END Cookie-Alert -->
-
-
 <?php wp_footer(); ?>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiW6C2-1fkU_DUPQXbJUHIQTVFo9LMkCs"></script>
-
 <script src="<?php echo get_template_directory_uri(); ?>/js/fontawesome-all.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/parallax.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/aos.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/swiper.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/tabs.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/map.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/cookiealert.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/smooth-scroll.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
 
 
-    
 
 <script>
 	AOS.init();
 </script>
 
+<script type="text/javascript">
+    var __ss_noform = __ss_noform || [];
+    __ss_noform.push(['baseURI', 'https://app-3QND212D12.marketingautomation.services/webforms/receivePostback/MzawMDEzNTI2BwA/']);
+    __ss_noform.push(['endpoint', '80cc306e-10aa-447b-a9f5-3ccf3c3d3594']);
+</script>
+<script type="text/javascript" src="https://koi-3QND212D12.marketingautomation.services/client/noform.js?ver=1.24" ></script>
+<script>
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+    location = './thank-you';
+}, false );
+</script>
+
+<script>
+  var mySwiper = new Swiper ('.gallery', {
+    // Optional parameters
+	direction: 'horizontal',
+    loop: true,
+
+		autoplay: {
+			delay: 5000,
+		},
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.next',
+      prevEl: '.prev',
+    },
+
+  })
+  </script>
 
 </body>
 

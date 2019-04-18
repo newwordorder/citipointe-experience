@@ -19,7 +19,7 @@ if( get_row_layout() == 'gallery' ):
     <?php 
 
       $images = get_sub_field('gallery');
-      $size = 'full'; // (thumbnail, medium, large, full or custom size)
+      $size = 'large'; // (thumbnail, medium, large, full or custom size)
 
       if( $images ): ?>
         <!-- Slider main container -->
@@ -28,13 +28,15 @@ if( get_row_layout() == 'gallery' ):
           <div class="swiper-wrapper align-items-center">
 
             <?php foreach( $images as $image ): ?>
-              <img class="swiper-slide mb-0" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+              <div class="swiper-slide image image--landscape rounded">
+                  <div class="background-image-holder">
+                      <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>"/>
+                  </div> 
+                </div>
             <?php endforeach; ?>
     
           </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-          
+            
             <!-- If we need navigation buttons -->
             <div class="prev"><i class="fal fa-arrow-left"></i></div>
 	          <div class="next"><i class="fal fa-arrow-right"></i></div>

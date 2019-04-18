@@ -15,6 +15,5 @@ function openTab(evt, tabName) {
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
   }
-  var mybtn = document.getElementsByClassName("tab-link")[0];
-  mybtn.click();
+ 
   

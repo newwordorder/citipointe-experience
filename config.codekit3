@@ -972,22 +972,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/js/smooth-scroll-min.js": {
+	"/js/smooth-scroll.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/js/smooth-scroll-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/js/smooth-scroll.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/smooth-scroll-min.js",
+		"oAP": "/js/smooth-scroll.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -1008,6 +998,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/js/swiper-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/tabs-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/tabs-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -1503,13 +1503,6 @@
 		"oAP": "/page-templates/blocks/video.php",
 		"oF": 0
 		},
-	"/page-templates/contact.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/page-templates/contact.php",
-		"oF": 0
-		},
 	"/page-templates/home.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1754,19 +1747,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/sass/theme/sections/_header.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/sass/theme/sections/_listings.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/sass/theme/sections/_listings.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

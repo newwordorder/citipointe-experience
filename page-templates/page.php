@@ -17,9 +17,10 @@ $backgroundImage = get_field('background_image');
 
 $image = $backgroundImage['background_image'];
 $imageOverlay = $backgroundImage['image_overlay'];
+
+$imageOverlay = $backgroundImage['image_overlay'];
 $backgroundEffect = $backgroundImage['background_effect'];
 $headerText = get_field('header_text');
-$headerSubText = get_field('header_subtext');
 
 
 ?>
@@ -27,7 +28,7 @@ $headerSubText = get_field('header_subtext');
 <section id="sub-header"
 
 class="page-header page-header--page bg-effect--<?php echo $backgroundEffect ?> imagebg"
-data-overlay="5"
+data-overlay="<?php echo $imageOverlay ?>"
 >
 
 
@@ -45,52 +46,19 @@ data-overlay="5"
 
 <div class="container">
   <div class="row justify-content-center">
-    <div class="col-md-8 text-center page-header__content">
+    <div class="col-md-10 page-header__content">
     <?php if($headerText): ?>
-      <h1 class="page-title"><?php echo $headerText; ?></h1>
+      <?php echo $headerText; ?>
     <? else: ?>
-      <h1 class="page-title"><?php the_title(); ?></h1>
-    <?php endif; ?>
-    <?php if($headerSubText): ?>
-      <p class="lead"><?php echo $headerSubText; ?></h1>
+      <h1 class="page-title"><em><?php the_title(); ?></em></h1>
     <?php endif; ?>
     </div>
   </div>
 </div>
 
-<?php get_template_part( 'page-templates/blocks/overlap' ); ?>
-
-
-
-
 </section>
-
-<?php if( get_field('include_internal_navigation') == 'yes' ): ?>
-
-  <?php if( have_rows('internal_page_navigation') ): ?>
-  <section class="space--md bg--light">
-<div class="container text-center">
-  <h6>On this page:</h6>
-  <ul class="internal-navigation">
-    <?php while( have_rows('internal_page_navigation') ): the_row();
-      $text = get_sub_field('link_text');
-      $id = get_sub_field('content_id');
-      ?>
-      <li><a href="#<?php echo $id ?>"><?php echo $text ?></a></li>
-
-    <?php endwhile; ?>
-    </ul>
-</div>
-</section>
-  <?php endif; ?>
-<?php endif; ?>
-
-
   
-
-<?php get_template_part( 'page-templates/blocks' );
-      get_template_part( 'page-templates/blocks/pre-footer-cta' );
-
-?>
-
+<main id="main">
+  <?php get_template_part( 'page-templates/blocks' );?>
+</main>
 <?php get_footer();

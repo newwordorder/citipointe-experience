@@ -1,19 +1,19 @@
 <?php
 
 // check if the repeater field has rows of data
-if( have_rows('blocks') ) {
+if( have_rows('blocks') ) { $blockCount = 0;
 
   // loop through the rows of data
-  while ( have_rows('blocks') ) { the_row();
+  while ( have_rows('blocks') ) { the_row(); $blockCount++;
 
     // Setup <section> for each content block
     get_template_part( 'page-templates/blocks/block-setup' );
 
     // check if the flexible content field has rows of data
-    if( have_rows('section') ) {
+    if( have_rows('section') ) { $sectionCount = 0;
 
       // loop through the rows of data
-      while ( have_rows('section') ) { the_row();
+      while ( have_rows('section') ) { the_row(); $sectionCount++;
 
          get_template_part( 'page-templates/blocks/text-block' );
          get_template_part( 'page-templates/blocks/50-50' );
@@ -31,6 +31,9 @@ if( have_rows('blocks') ) {
          get_template_part( 'page-templates/blocks/timeline' );
          get_template_part( 'page-templates/blocks/gallery' );
          get_template_part( 'page-templates/blocks/tabs' );
+
+         $GLOBALS['blockCount'] = $blockCount;
+         $GLOBALS['sectionCount'] = $sectionCount;
 
       }
 

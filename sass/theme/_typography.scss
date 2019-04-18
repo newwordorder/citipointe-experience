@@ -44,6 +44,7 @@ html {
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: $font-opensans;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
@@ -71,30 +72,44 @@ p {
   font-weight: 400;
 }
 
+.modal-content {
+  text-align: left;
+  h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, strong {
+    color: $navy;
+  }
+  p, label {
+    color: $body-color;
+  }
+}
+
 .lead {
   color: $heading-color;
 }
 
 .page-title {
-  font-size: 3.4em;
+  font-size: 6em;
   line-height: 1em;
   position: relative;
   display: inline-block;
   z-index: 1;
   @include media-breakpoint-down(sm) {
-    font-size: 2.4rem;
+    font-size: 3rem;
   }
-
-  &:before {
-    position: absolute;
-    content: "";
-    display: block;
-    top: 0;
-    bottom: 0;
-    right: 0.4rem;
-    left: -0.4rem;
-    background-color: $primary;
-    z-index: -1;
+  em {
+    font-style: normal;
+    position: relative;
+    display: inline-block;
+    &:before {
+      position: absolute;
+      content: "";
+      display: block;
+      top: 0;
+      bottom: 0;
+      right: 0.4rem;
+      left: -0.4rem;
+      background-color: $primary;
+      z-index: -1;
+    }
   }
 }
 
@@ -111,31 +126,34 @@ hr {
   }
 }
 
-  .blockquote{
+.blockquote{
   p{
-    font-size:1.5em;
+    font-size:1.4rem;
     font-family:$font-bariol;
+    position: relative;
     &:before{
       content:'\201C';
-      color:#247691;
+      color:$secondary;
       margin-right:2px;
+      left: -1rem;
+      position: absolute;
     }
     &:after{
       content:'\201D';
-      color:#247691;
+      color:$secondary;
       margin-left:2px;
 
     }
   }
 }
   .blockquote-footer{
-    padding:2em 0em;
+    padding: 0;
     display:flex;
     align-items:center;
     &:before{
-      content:'\2014 \2014 \2014';
+      content:'\2014';
       margin-right:1em;
-      color:#247691;
+      color:$secondary;
     }
     p{
       &:before{
