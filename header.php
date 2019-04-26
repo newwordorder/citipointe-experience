@@ -11,6 +11,15 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-5N8XH4P');</script>
+	<!-- End Google Tag Manager -->
+
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,6 +30,7 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
 
+	<!-- Sharpspring -->
 	<script type="text/javascript">
 		var _ss = _ss || [];
 		_ss.push(['_setDomain', 'https://koi-3QND212D12.marketingautomation.services/net']);
@@ -34,6 +44,7 @@
 		scr.parentNode.insertBefore(ss, scr);
 	})();
 	</script>
+	<!-- end Sharpspring -->
 
 	<link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo('template_directory'); ?>/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="<?php bloginfo('template_directory'); ?>/favicon/favicon-32x32.png">
@@ -49,9 +60,12 @@
 
 <body <?php body_class(); ?>>
 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5N8XH4P"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
-
-	<!-- ******************* The Navbar Area ******************* -->
+<!-- ******************* The Navbar Area ******************* -->
 <a class="skip-link screen-reader-text sr-only" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
 <div class="header">
 	<div id="header" class="header-top" >
@@ -64,7 +78,7 @@
 					</a>
 				</div>
 				<a id="toggleMenu" class="toggle-menu">
-						<span class="toggle-line"></span>
+					<span class="toggle-line"></span>
 				</a>
 				<div class="col-md-8">
 					<?php wp_nav_menu(
@@ -83,7 +97,6 @@
 	</div><!-- #header -->
 </div>
 
-
 <script>
 	(function($) {
 			$(".toggle-menu").click(function () {
@@ -91,6 +104,5 @@
 		});
 	})( jQuery );
 </script>
-
 
 <div id="content" class="page">

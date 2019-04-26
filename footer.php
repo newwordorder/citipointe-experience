@@ -6,7 +6,6 @@
  *
  * @package understrap
  */
-
 ?>
 
 <footer class="footer bg--dark">
@@ -21,7 +20,7 @@
 				
 			</div>
 			<div class="col-md-8">
-			<?php wp_nav_menu(
+				<?php wp_nav_menu(
 					array(
 						'theme_location'  => 'footer-social',
 						'container_class' => 'footer-social',
@@ -36,7 +35,7 @@
 		</div>
 		<div class="row">
 			<div class="col text-center">
-			<p>© Copyright Citipointe Christian College<br>  <a href="<?php echo get_home_url(); ?>/privacy-policy">Privacy Policy</a></p>
+				<p>© Copyright Citipointe Christian College<br>  <a href="<?php echo get_home_url(); ?>/privacy-policy">Privacy Policy</a></p>
 			</div>
 		</div>
 
@@ -53,24 +52,28 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/smooth-scroll.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
 
-
-
 <script>
 	AOS.init();
 </script>
 
+<!-- Sharpspring native form -->
 <script type="text/javascript">
     var __ss_noform = __ss_noform || [];
     __ss_noform.push(['baseURI', 'https://app-3QND212D12.marketingautomation.services/webforms/receivePostback/MzawMDEzNTI2BwA/']);
     __ss_noform.push(['endpoint', '80cc306e-10aa-447b-a9f5-3ccf3c3d3594']);
 </script>
 <script type="text/javascript" src="https://koi-3QND212D12.marketingautomation.services/client/noform.js?ver=1.24" ></script>
-<script>
-document.addEventListener( 'wpcf7mailsent', function( event ) {
-    location = './thank-you';
-}, false );
-</script>
+<!-- end Sharpspring native form -->
 
+<!-- Link form to thank-you page -->
+<script>
+	document.addEventListener( 'wpcf7mailsent', function( event ) {
+			location = './thank-you';
+	}, false );
+</script>
+<!-- end Link form to thank-you page -->
+
+<!-- Enque slider -->
 <script>
   var mySwiper = new Swiper ('.gallery', {
     // Optional parameters
@@ -88,7 +91,8 @@ document.addEventListener( 'wpcf7mailsent', function( event ) {
     },
 
   })
-  </script>
+</script>
+<!-- end Enque slider -->
 
 </body>
 
