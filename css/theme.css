@@ -16191,7 +16191,8 @@ a:not(.btn) {
 
 .header__logo {
   display: block;
-  max-width: 240px; }
+  max-width: 240px;
+  max-height: 68px; }
   @media (max-width: 767.98px) {
     .header__logo {
       width: 140px; } }
