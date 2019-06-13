@@ -16421,6 +16421,7 @@ a:not(.btn) {
 
 .footer__logo {
   max-width: 240px;
+  max-height: 68px;
   opacity: 1 !important;
   display: block; }
   @media (max-width: 767.98px) {

@@ -67,6 +67,7 @@
 
 .footer__logo {
   max-width: 240px;
+  max-height: 68px;
   opacity: 1!important;
   display: block;
   @include media-breakpoint-down(sm) {
